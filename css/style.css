@@ -1,0 +1,87 @@
+li.nav-item {
+	padding: 0 8px;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: "Helvetica Neue";
+}
+
+.navbar {
+	background-color: none!important;
+}
+
+#main-container {
+	background-image: url("../images/fondoweb.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	padding: 5%;
+	color: #fff;
+}
+
+.title h1 {
+	font-family: 'HelveticaNeue-CondensedBlack';
+}
+
+.title h4 {
+	font-family: 'HelveticaNeue-CondensedBold';
+}
+
+#planes {
+	padding-bottom: 5%;
+}
+
+.plan {
+	display: block;
+	margin: auto;
+}
+
+img.plan {
+	padding-bottom: 16px;
+}
+
+#descarga-avanza, #descarga-conecta {
+	background: #89A859;
+	border: none;
+	color: #FFF;
+	padding: 0 16px;
+}
+
+#descarga-conecta {
+	background: #EEBD40;
+}
+
+
+.nav-link {
+	color: #fff!important;
+}
+
+
+#foco {
+	width: 100px;
+	position: absolute;
+	right: 32px;
+}
+
+#foco-image, #interrogacion-image {
+	display: block;
+	margin: auto;
+	padding-bottom: 8px;
+}
+
+#interrogacion {
+	width: 100px;
+	position: absolute;
+	left: 32px;
+}
+
+.accion {
+	color: #FFF;
+	text-align: center;
+}
