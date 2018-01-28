@@ -1,5 +1,20 @@
+.nav-link {
+	color: #fff!important;
+}
+
+.nav-link:hover {
+	color: #f7c700!important;
+}
+
 li.nav-item {
-	padding: 0 8px;
+	padding: 0 16px;
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    font-family: HelveticaNeue-CondensedBlack;
+    src: url(../Helvetica-Bold.otf);
+    src: url(../HelveticaNeue-CondensedBlack);
 }
 
 body, html {
@@ -8,33 +23,51 @@ body, html {
 	font-family: "Helvetica Neue";
 }
 
-.navbar {
-	background-color: none!important;
-}
-
-#main-container {
+body {
 	background-image: url("../images/fondoweb.jpg");
-	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+    -moz-background-size: cover;
+}
+
+.navbar-brand img {
+    height: 28px;
+}
+
+.navbar-toggler span {
+	color: #FFF;
 }
 
 .title {
-	padding: 5%;
-	color: #fff;
+	padding: 5% 0;
+	color: #FFF;
 }
 
 .title h1 {
 	font-family: 'HelveticaNeue-CondensedBlack';
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
 }
 
 .title h4 {
-	font-family: 'HelveticaNeue-CondensedBold';
+	font-family: 'Helvetica-Bold';
+	font-size: 14px;
+	color: #f7c700;
+	text-align: center;
 }
 
+#avanza-contenido {
+	padding-bottom: 32px;
+}
+
+/*#conecta-contenido {
+	padding-bottom: 14%;
+}*/
+
 #planes {
-	padding-bottom: 5%;
+	padding-bottom: 32px;
 }
 
 .plan {
@@ -46,101 +79,156 @@ img.plan {
 	padding-bottom: 16px;
 }
 
+/*#img-avanza {
+	height: 100px;
+}
+
+#img-conecta {
+	height: 100px;
+}*/
+
 #descarga-avanza, #descarga-conecta {
+	font-size: 14px;
 	background: #89A859;
 	border: none;
 	color: #FFF;
-	padding: 0 16px;
+	padding: 0 8px;
 }
 
 #descarga-conecta {
 	background: #EEBD40;
 }
 
-
-.nav-link {
-	color: #fff!important;
+#que_es {
+	width: 100px;
+	float: left;
+	text-align: center;
 }
 
-
-#foco {
+#ideas {
 	width: 100px;
-	position: absolute;
-	right: 32px;
+	float: right;
+	text-align: center;
 }
 
 #foco-image, #interrogacion-image {
+	padding-bottom: 8px;
+}
+
+.accion {
+	color: #FFF;
+	/*font-size: 20px;*/
+	font-weight: bold;
+}
+
+/*.info-content {
+	width: 50%;
+}*/
+
+/*#foco-image, #interrogacion-image {
 	display: block;
 	margin: auto;
 	padding-bottom: 8px;
 }
 
-#interrogacion {
-	width: 100px;
-	position: absolute;
-	left: 32px;
-}
-
 .accion {
-	color: #FFF;
 	text-align: center;
+	color: #FFF;
+}*/
+
+footer {
+	color: #fff;
+	border-top: 1px solid #fff;
+	/*position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;*/
 }
 
-/*Extra small devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap*/
+#social {
+	text-align: center;
+	padding: 8px;
+	font-size: 18px;
+}
+
+#social a {
+	padding: 0 8px;
+}
+
+#avisoPrivacidad {
+	text-align: center;
+	font-size: 12px;
+	padding: 8px;
+}
+
+.fa-facebook-f, .fa-youtube, .fa-google-plus-g {
+	color: #fff;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) { 
-	/*.title {
-		justify-content: none;
-	}*/
+@media (min-width: 576px) { 
+	.navbar-brand img {
+    	height: 48px;
+	}
 
 	.title h1 {
-		font-size: 24px;
+		font-size: 46px;
 	}
 
 	.title h4 {
-		font-size: 16px;
+		font-size: 20px;
 	}
 
-	.navbar-brand img {
-		height: 32px; 
+	/*#img-avanza {
+		height: 86px;
 	}
 
-	.plan {
-		width: 135px;
-		font-size: 11px;
-	}
-
-	#avanza-contenido {
-		padding-bottom: 50px;
-	}
-
-	#conecta-contenido {
-		padding-bottom: 16px;
-	}
-
-	#foco-image {
-		width: auto;
-		height: 32px;
-	}
-
-	#interrogacion-image {
-		width: auto;
-		height: 32px;
-	}
-
-	.accion {
-		font-size: 12px;
-	}
-
+	#img-conecta {
+		height: 106px;
+	}*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+	.title h1 {
+		font-size: 64px;
+	}
+
+	.title h4 {
+		font-size: 18px;
+	}
+}
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+	/*#img-avanza {
+		height: 103.2px;
+	}
+
+	#img-conecta {
+		height: 127.2px;
+	}*/
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+
+
+}
+
+#objetives-content {
+	background-color: rgba(255,255,255, 0.7);
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 20px;
+    color: #125a59;
+}
+
+

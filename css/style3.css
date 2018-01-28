@@ -1,0 +1,156 @@
+.nav-link {
+	color: #fff!important;
+}
+
+.nav-link:hover {
+	color: #f7c700!important;
+}
+
+li.nav-item {
+	padding: 0 16px;
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    font-family: HelveticaNeue-CondensedBlack;
+    src: url(../Helvetica-Bold.otf);
+    src: url(../HelveticaNeue-CondensedBlack);
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: "Helvetica Neue";
+}
+
+.navbar {
+	background-color: #333;
+}
+
+.navbar-brand img {
+    height: 28px;
+}
+
+.navbar-toggler span {
+	color: #FFF;
+}
+/*
+#main-container {
+	background-color: #E6E6E8;
+}*/
+
+footer {
+	color: #fff;
+	background-color: #333;
+}
+
+#social {
+	text-align: center;
+	padding: 8px;
+	font-size: 18px;
+}
+
+#social a {
+	padding: 0 8px;
+}
+
+#avisoPrivacidad {
+	text-align: center;
+	font-size: 12px;
+	padding: 8px;
+}
+
+.fa-facebook-f, .fa-youtube, .fa-google-plus-g {
+	color: #fff;
+}
+
+#header h1{
+	color: #333;
+	padding: 16px 0;
+}
+
+.image-gallery {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
+	width: 100%;
+	cursor: pointer;
+    transition: 0.3s;
+}
+
+.image-gallery:hover {opacity: 0.7;}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+
+

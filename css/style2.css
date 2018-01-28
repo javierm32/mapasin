@@ -1,0 +1,118 @@
+.nav-link {
+	color: #fff!important;
+}
+
+.nav-link:hover {
+	color: #f7c700!important;
+}
+
+li.nav-item {
+	padding: 0 16px;
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    font-family: HelveticaNeue-CondensedBlack;
+    src: url(../Helvetica-Bold.otf);
+    src: url(../HelveticaNeue-CondensedBlack);
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: "Helvetica Neue";
+}
+
+.navbar {
+	background-color: #333;
+}
+
+.navbar-brand img {
+    height: 28px;
+}
+
+.navbar-toggler span {
+	color: #FFF;
+}
+
+#main-container {
+	background-color: #E6E6E8;
+}
+
+#blog-title h1{
+	padding: 16px 0;
+	color: #333;
+}
+
+.card {
+	margin: 8px 0;
+}
+
+.float-left {
+	padding-right: 16px;
+	width: 150px;
+	height: auto;
+}
+
+.card-body h5 {
+	color: #f7c700;
+}
+
+.card-body h4 {
+	color: #125a59;
+}
+
+#blog-pages {
+	font-size: 22px;
+	text-align: center;
+	padding: 8px;
+}
+
+#blog-pages a {
+	padding-right: 8px;
+}
+
+footer {
+	color: #fff;
+	background-color: #333;
+}
+
+#social {
+	text-align: center;
+	padding: 8px;
+	font-size: 18px;
+}
+
+#social a {
+	padding: 0 8px;
+}
+
+#avisoPrivacidad {
+	text-align: center;
+	font-size: 12px;
+	padding: 8px;
+}
+
+.fa-facebook-f, .fa-youtube, .fa-google-plus-g {
+	color: #fff;
+}
+
+#header {
+	background-image: url("../images/headerBackground.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    -moz-background-size: cover;
+}
+
+#header h1 {
+	padding: 64px 0;
+	color: #FFF;
+}
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+

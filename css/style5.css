@@ -1,0 +1,131 @@
+.nav-link {
+	color: #fff!important;
+}
+
+.nav-link:hover {
+	color: #f7c700!important;
+}
+
+li.nav-item {
+	padding: 0 16px;
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    font-family: HelveticaNeue-CondensedBlack;
+    src: url(../Helvetica-Bold.otf);
+    src: url(../HelveticaNeue-CondensedBlack);
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: "Helvetica Neue";
+}
+
+.navbar {
+	background-color: #333;
+}
+
+.navbar-brand img {
+    height: 28px;
+}
+
+.navbar-toggler span {
+	color: #FFF;
+}
+
+#main-container {
+	background-color: #E6E6E8;
+}
+
+#blog-title h1{
+	padding: 16px 0;
+	color: #333;
+}
+
+.card {
+	margin: 8px 0;
+}
+
+.float-left {
+	padding-right: 16px;
+	width: 150px;
+	height: auto;
+}
+
+.card-body h5 {
+	color: #f7c700;
+}
+
+.card-body h4 {
+	color: #125a59;
+}
+
+#blog-pages {
+	font-size: 22px;
+	text-align: center;
+	padding: 8px;
+}
+
+#blog-pages a {
+	padding-right: 8px;
+}
+
+footer {
+	color: #fff;
+	background-color: #333;
+}
+
+#social {
+	text-align: center;
+	padding: 8px;
+	font-size: 18px;
+}
+
+#social a {
+	padding: 0 8px;
+}
+
+#avisoPrivacidad {
+	text-align: center;
+	font-size: 12px;
+	padding: 8px;
+}
+
+.fa-facebook-f, .fa-youtube, .fa-google-plus-g {
+	color: #fff;
+}
+
+#header {
+	background-color: #125a59;
+}
+
+#header h1 {
+	padding: 32px 0;
+	color: #FFF;
+}
+.image-gallery {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
+	width: 100%;
+	cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-content {
+	position: relative;
+}
+
+.project-name {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 16px;
+}
+
+.image-gallery:hover {opacity: 0.7;}
+

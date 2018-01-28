@@ -1,0 +1,131 @@
+.nav-link {
+	color: #fff!important;
+}
+
+.nav-link:hover {
+	color: #f7c700!important;
+}
+
+li.nav-item {
+	padding: 0 16px;
+}
+
+#header {
+	background-image: url("../images/fondoweb.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    -moz-background-size: cover;
+}
+
+#portada {
+	padding-top: 5%;
+	padding-bottom: 5% ;
+	text-align: center;
+}
+
+#portada h1 {
+	font-size: 73px;
+	color: #fff;
+}
+
+#portada h4 {
+	color: #f7c700;
+}
+
+#info {
+	text-align: center;
+	font-size: 20px
+}
+
+#info h2 {
+	padding: 16px;
+	color: #125a59;
+}
+
+.separator {
+	color: #f7c700;
+}
+
+#ini {
+	color: #125a59;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.item-dif {
+	color: #125a59;
+}
+
+.fa-book, .fa-images, .fa-comments {
+	font-size: 64px;
+	padding-bottom: 8px;
+}
+
+.item-dif p {
+	font-weight: 300;
+}
+
+
+.plan-container {
+	width: 100%;
+	background-color: #333;
+	margin-bottom: 16px;
+}
+
+#avanza-container {
+	background-color: #f7c700;
+}
+
+#conecta-container {
+	background-color: #125a59;
+}
+
+#planes {
+	background-color: #f5f5f5;
+}
+
+#avanza-container, #conecta-container {
+	/*margin-top: 15px;
+	margin-bottom: 15px;*/
+	margin: 15px 0;
+}
+
+.plan-container img {
+	display: block;
+	margin: auto;
+	width: 95%;
+	padding: 32px;
+}
+
+
+
+
+footer {
+	color: #fff;
+	background-color: #333;
+	/*position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;*/
+}
+
+#social {
+	text-align: center;
+	padding: 8px;
+	font-size: 18px;
+}
+
+#social a {
+	padding: 0 8px;
+}
+
+#avisoPrivacidad {
+	text-align: center;
+	font-size: 12px;
+	padding: 8px;
+}
+
+.fa-facebook-f, .fa-youtube, .fa-google-plus-g {
+	color: #fff;
+}

@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,81 +14,107 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
-    
-    <div id="main-container">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <!-- Menu -->
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/mapasin-logo.png" height="48" alt="mapasin-logo">
-            </a>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/mapasin-logo.png" height="48" alt="mapasin-logo">
+        </a>
             
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <span>&#9776;</span>
+        </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Objetivos</a>
-                </li>
-                <li class="nav-item nav-cosa dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Biblioteca
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Sinaloa</a>
-                    <a class="dropdown-item" href="#">México</a>
-                    <a class="dropdown-item" href="#">Mundo</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-                </li>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <li class="nav-item nav-cosa dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Biblioteca de proyectos
+                </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="culiacan.html">Sinaloa</a>
+                <a class="dropdown-item" href="mexico.html">México</a>
+                <a class="dropdown-item" href="mundo.html">Mundo</a>
               </div>
-            </div>
-          </nav>
-        <!-- /Menu -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
         
-        <!-- Content -->
-          <div class="row justify-content-center title">
-            <h1>Avanzando hacia el futuro</h1>
-            <h4>Promovemos una visión de desarrollo a largo plazo para nuestras ciudades.</h4>
-          </div>
+    <main id="main-container">
+      <div class="container">        
           
-          <div id="planes" class="row">
-            <div id="avanza-contenido" class="col-sm-6">
-              <img class="plan" src="./images/logoPlanAvanza.png" width="200px">
-              <button id="descarga-avanza" class="plan">DESCARGA AQUÍ</button>
-            </div>
-            <div id="conecta-contenido" class="col-sm-6">
-              <img class="plan" src="./images/logoPlanConecta.png" width="200px">
-              <button id="descarga-conecta" class="plan">DESCARGA AQUÍ</button>
-            </div>
-          </div>
+        <section class="title">
+          <h1>Avanzando hacia el futuro</h1>
+          <h4>Promovemos una visión de desarrollo a largo plazo para la movilidad en Sinaloa.</h4>
+        </section>
 
-          <div class="row">
-            <div class="col-sm">
-              <div id="foco">
-                <img id="foco-image" src="./images/foco.png" height="64">
+        <section id="planes" class="row">
+          <div id="avanza-contenido" class="col-sm-6">
+            <img id="img-avanza" class="plan " src="./images/logo-avanza.png" >
+            <a href="plan_avanza.html">
+              <button id="descarga-avanza" class="plan">VER MÁS</button>
+            </a>
+          </div>
+          <div id="conecta-contenido" class="col-sm-6">
+            <img id="img-conecta" class="plan " src="./images/logo-conecta.png" >
+            <a href="plan_conecta.html">
+              <button id="descarga-conecta" class="plan">VER MÁS</button>
+            </a>
+          </div>
+        </section>
+
+        <section id="info" class="row">
+          <div class="info-content col-sm-4"></div>
+          <div class="info-content col-sm-4">            
+            <div id="que_es">
+              <a href="objetivos.html">
+                <img id="foco-image" src="./images/interrogacion-sm.png">
                 <p class="accion">QUÉ ES</p>
-              </div>
+              </a>
             </div>
-            <div class="col-sm">
-              <div id="interrogacion">
-                <img id="interrogacion-image" src="./images/interrogacion.png" height="64">
-                <P class="accion">PARTICIPA</P>
-              </div>
+            <div id="ideas">
+              <a href="">
+                <img id="interrogacion-image" src="./images/foco-sm.png">
+                <P class="accion">IDEAS</P>
+              </a>
             </div>
           </div>
-        <!-- /Content -->
+          <div class="info-content col-sm-4"></div>
+        </section>
 
       </div>
-    </div>
-    
+    </main>
+    <footer>
+       <div class="row">
+         <div class="col-sm-4"></div>
+         <div id="social" class="col-sm-4">
+           <a href="">
+             <i class="fab fa-facebook-f"></i>
+           </a>
+           <a href="">
+             <i class="fab fa-youtube"></i>
+           </a>
+           <a href="">
+             <i class="fab fa-google-plus-g"></i>
+           </a>
+         </div>
+         <div id="avisoPrivacidad" class="col-sm-4">
+          <p>Aviso de privacidad</p>
+         </div>
+       </div>
+    </footer>
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

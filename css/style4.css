@@ -1,0 +1,123 @@
+.nav-link {
+    color: #fff!important;
+}
+
+.nav-link:hover {
+    color: #f7c700!important;
+}
+
+li.nav-item {
+    padding: 0 16px;
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    font-family: HelveticaNeue-CondensedBlack;
+    src: url(../Helvetica-Bold.otf);
+    src: url(../HelveticaNeue-CondensedBlack);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Helvetica Neue";
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand img {
+    height: 28px;
+}
+
+.navbar-toggler span {
+    color: #FFF;
+}
+
+#blog-title {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #333;
+}
+
+.card {
+    margin: 8px 0;
+}
+
+.float-left {
+    padding-right: 16px;
+    width: 150px;
+    height: auto;
+}
+
+.card-body h5 {
+    color: #f7c700;
+}
+
+.card-body h4 {
+    color: #125a59;
+}
+
+#blog-pages {
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+}
+
+#blog-pages a {
+    padding-right: 8px;
+}
+
+footer {
+    color: #fff;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#social {
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+}
+
+#social a {
+    padding: 0 8px;
+}
+
+#avisoPrivacidad {
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.fa-facebook-f, .fa-youtube, .fa-google-plus-g {
+    color: #fff;
+}
+
+
+#header h1 {
+    padding: 16px 0;
+    color: #333;
+}
+
+#map {
+   width: 100%;
+   height: 380px;
+   background-color: grey;
+   margin-bottom: 32px;
+ }
+
+.contact-subtitle {
+    border-bottom: 1px solid #333;
+}
+
+.contact-content {
+    padding-bottom: 32px;
+}
+
+
+
